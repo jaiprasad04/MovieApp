@@ -1,0 +1,36 @@
+.slick-movie-img {
+  border-radius: 8px;
+  width: 90px;
+  height: 64px;
+  margin: 0px 5px;
+}
+
+.slick-movie-img:hover {
+  -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.1);
+}
+
+@media screen and (min-width: 768px) {
+  .slick-movie-img {
+    width: 254px;
+    height: 180px;
+  }
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.slider-container {
+  width: 90%;
+  max-width: 1110px;
+}
+
+@media screen and (min-width: 768px) {
+  .slider-container {
+    width: 100%;
+  }
+}
